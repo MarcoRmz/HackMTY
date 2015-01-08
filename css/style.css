@@ -653,14 +653,14 @@ aside.clients img {
 }
 
 section#contact {
-    background-color: #222;
+    background-color: #fff;
     /*background-image: url(../img/map-image.png);*/
     background-position: center;
     background-repeat: no-repeat;
 }
 
 section#contact .section-heading {
-    color: #fff;
+    color: #5a008e;
 }
 
 section#contact .form-group {
@@ -727,6 +727,7 @@ footer span.copyright {
     text-transform: none;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 40px;
+    color: #fff;
 }
 
 footer ul.quicklinks {
@@ -750,7 +751,7 @@ ul.social-buttons li a {
     line-height: 40px;
     outline: 0;
     color: #fff;
-    background-color: #222;
+    background-color: #5a008e;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
