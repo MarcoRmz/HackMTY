@@ -22,6 +22,22 @@
         <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
+        <!-- Scripts -->
+        <script src="https://maps.googleapis.com/maps/api/js"></script>
+        <script>
+            function initialize() {
+                var mapCanvas = document.getElementById('map-canvas');
+                var mapOptions = {
+                    center: new google.maps.LatLng(25.648579, -100.289509),
+                    zoom: 18,
+                    mapTypeId: google.maps.MapTypeId.ROADMAP
+                    
+                }
+                var map = new google.maps.Map(mapCanvas, mapOptions)
+            }
+            google.maps.event.addDomListener(window, 'load', initialize);
+        </script>
+
     </head>
 
     <body id="page-top" class="index">
@@ -89,7 +105,10 @@
                     </div>
                 </div>
                 <div class="row text-center">
-                    <div class="col-md-4">
+                    <div class="col-md-3">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d899.170902720058!2d-100.28943095172751!3d25.648624214417612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8662bfb96c0b2719%3A0x3792e1a98d3a4b06!2sCentro+Estudiantil!5e0!3m2!1sen!2smx!4v1420754157676" width="250" height="250" frameborder="0" style="border:0"></iframe>
+                    </div>
+                    <div class="col-md-3">
                         <span class="fa-stack fa-4x">
                             <i class="fa fa-circle fa-stack-2x text-primary"></i>
                             <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
@@ -97,7 +116,7 @@
                         <h4 class="service-heading">What makes us awesome</h4>
                         <p class="text-muted">This is the largest student hackathon in Latin America. Hosted by Tec de Monterrey, ranked 5 stars by QS and in the top 40 universities worldwide and top 10 in Latin America.</p>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         <span class="fa-stack fa-4x">
                             <i class="fa fa-circle fa-stack-2x text-primary"></i>
                             <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
@@ -105,7 +124,7 @@
                         <h4 class="service-heading">All students welcome!</h4>
                         <p class="text-muted">Whether it's your first hackathon or your an experienced hacker, HackMTY is perfect for you and there is no entry fee.</p>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         <span class="fa-stack fa-4x">
                             <i class="fa fa-circle fa-stack-2x text-primary"></i>
                             <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
@@ -256,7 +275,7 @@
                     <div class="row">
                         <div class="col-md-3 col-sm-6">
                             <a href="#">
-                                <img src="img/logos/envato.jpg" class="img-responsive img-centered" alt="">
+                                <img src="img/logos/mlh.png" class="img-responsive img-centered" alt="">
                             </a>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -274,7 +293,11 @@
                                 <img src="img/logos/creative-market.jpg" class="img-responsive img-centered" alt="">
                             </a>
                         </div>
-                        <a href="#about" class="page-scroll btn btn-xl">Sponsor</a>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <a href="#about" class="page-scroll btn btn-xl">Sponsor</a>
+                        </div>
                     </div>
                 </div>
             </aside>

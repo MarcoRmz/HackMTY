@@ -51,6 +51,11 @@ h6 {
     font-weight: 700;
 }
 
+#map-canvas {
+    width: 250px;
+    height: 250px;
+}
+
 .img-centered {
     margin: 0 auto;
 }
