@@ -171,14 +171,14 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #662d91;
+    color: #fff;
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #5a008e;
+    color: #fff;
 }
 
 .navbar-default .navbar-collapse {
@@ -196,9 +196,10 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #5a008e;
+    background-color: #fff;
 }
 
+/* Link Text Color */
 .navbar-default .nav li a {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -207,18 +208,21 @@ fieldset[disabled] .btn-xl.active {
     color: #fff;
 }
 
+/* Link Text Color Hover */
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #5a008e;
+    color: #77618a;
 }
 
+/* Active Link BKG */
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
     background-color: #662d91;
 }
 
+/* Active Link BKG Hover */
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
