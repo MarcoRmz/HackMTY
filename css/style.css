@@ -1,24 +1,4 @@
 
-[class^="icon-"], [class*=" icon-"] {
-    display: inline-block;
-    color: #fff;
-    fill: currentColor;
-}
-.icon-mail {
-    width: 55%;
-    height: 55%;
-}
-.icon-twitter {
-    width: 55%;
-    height: 55%;
-    margin-top: 20%;
-}
-.icon-facebook {
-    width: 55%;
-    height: 55%;
-    margin-top: 20%;
-}
-
 body {
     overflow-x: hidden;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
