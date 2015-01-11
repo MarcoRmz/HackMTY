@@ -171,8 +171,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,cursive;
-    color: #fff;
+    margin-top: -2.5%;
 }
 
 .navbar-default .navbar-brand:hover,
