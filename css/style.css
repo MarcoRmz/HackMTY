@@ -5,7 +5,7 @@ body {
 }
 
 .text-muted {
-    color: #777;
+    color: #000;
 }
 
 .text-primary {
@@ -533,7 +533,7 @@ section h4 {
 
 .timeline .timeline-heading h4 {
     margin-top: 0;
-    color: inherit;
+    color: #5a008e;
 }
 
 .timeline .timeline-heading h4.subheading {
