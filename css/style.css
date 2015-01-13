@@ -123,6 +123,8 @@ fieldset[disabled] .btn-primary.active {
     color: #fff;
     background-color: #662d91;
     margin-top: 2%;
+    margin-right: 0.5%;
+    margin-left: 0.5%;
 }
 
 .btn-xl:hover,
