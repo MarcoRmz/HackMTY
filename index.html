@@ -20,6 +20,7 @@
 
         <!-- Custom CSS -->
         <link href="css/style.css" rel="stylesheet">
+        <link href="css/countdown.css" rel="stylesheet">
 
         <!-- Custom Fonts -->
         <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
@@ -78,30 +79,9 @@
                     <div class="intro-lead-in">March 21th - 22th @ITESM, Monterrey NL</div>
                     <a href="#about" class="page-scroll btn btn-xl">About</a>
                     <a href="http://marcormz.me/formHackMTY/form.html" class="page-scroll btn btn-xl" target="_blank">Attend</a>
-                    <!-- Typeform test
-                    <a class="typeform-share btn btn-xl" href="http://www.marcormz.me" data-mode="1" target="_blank">Apply</a>
-                    
-                    <script>
-                        (function(){
-                            var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';
-                            if(!gi.call(d,id)){
-                                js=ce.call(d,'script');
-                                js.id=id;js.src=b+'share.js';
-                                q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)
-                            }
-                            id=id+'_';
-                            if(!gi.call(d,id)){
-                                qs=ce.call(d,'link');
-                                qs.rel='stylesheet';
-                                qs.id=id;
-                                qs.href=b+'share-button.css';
-                                s=gt.call(d,'head')[0];
-                                s.appendChild(qs,s)
-                            }
-                        }
-                        )()
-                    </script>
-                    -->
+                    <div class="wrapper">
+                     <time id="count-down" datetime="2015-03-21T09:00:00"></time>
+                    </div>
                 </div>
             </div>
         </header>
@@ -502,6 +482,7 @@
 
         <!-- Custom Theme JavaScript -->
         <script src="js/script.js"></script>
+        <script src="js/countdown.js"></script>
 
     </body>
 

@@ -173,7 +173,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    margin-top: -2.5%;
+    margin-top: -14%;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -276,8 +276,8 @@ header {
 }
 
 header .intro-text {
-    padding-top: 100px;
-    padding-bottom: 50px;
+    padding-top: 15%;
+    padding-bottom: 15%;
 }
 
 header .intro-text .intro-lead-in {
@@ -299,8 +299,8 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 20%;
-        padding-bottom: 20%;
+        padding-top: 15%;
+        padding-bottom: 15%;
     }
 
     header .intro-text .intro-lead-in {
@@ -870,52 +870,25 @@ body {
     webkit-tap-highlight-color: #662d91;
 }
 
-/**
- *  This element is created inside your target element
- *  It is used so that your own element will not need to be altered
- **/
-.time_circles {
-    position: relative;
-    width: 100%;
-    height: 100%;
+ul {
+  margin-bottom: 4em;
 }
-
-/**
- *  This is all the elements used to house all text used
- * in time circles
- **/
-.time_circles > div {
-    position: absolute;
-    text-align: center;
+.chart {
+  display: inline-block;
+  width: 95px;
+  height: 95px;
+  margin: 0 10px;
+  vertical-align: top;
+  position: relative;
+  padding-top: 22px;
 }
-
-/**
- *  Titles (Days, Hours, etc)
- **/
-.time_circles > div > h4 {
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: 'Century Gothic', Arial;
+.chart span {
+  display: block;
+  font-size: 2em;
+  font-weight: normal;
 }
-
-/**
- *  Time numbers, ie: 12
- **/
-.time_circles > div > span {
-    display: block;
-    width: 100%;
-    text-align: center;
-    font-family: 'Century Gothic', Arial;
-    font-size: 300%;
-    margin-top: 0.4em;
-    font-weight: bold;
-}
-
-.time_circles .textDiv_Days,
-.textDiv_Hours,
-.textDiv_Minutes,
-.textDiv_Seconds {
-  color: #fff;
+.chart canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
 }
