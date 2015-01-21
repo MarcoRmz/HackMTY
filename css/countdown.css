@@ -9,9 +9,7 @@
 }
 #count-down ul {
   display: block;
-  margin: 0;
-  margin-right: -170px;
-  margin-left: 200px;
+  margin: 0 -170px 0 200px;
   padding: 0;
 }
 
