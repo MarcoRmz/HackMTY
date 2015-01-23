@@ -884,7 +884,7 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #946CB2;
+    background: #fff;
 }
 
 ::selection {
