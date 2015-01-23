@@ -122,7 +122,6 @@ fieldset[disabled] .btn-primary.active {
     font-weight: 700;
     color: #fff;
     background-color: #662d91;
-    margin-top: 2%;
     margin-right: 0.5%;
     margin-left: 0.5%;
 }
@@ -198,7 +197,8 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #fff;
+    background-color: #5a008e;
+    border-color: #5a008e;
 }
 
 /* Link Text Color */
@@ -231,7 +231,7 @@ fieldset[disabled] .btn-xl.active {
     background-color: #5a008e;
 }
 
-@media(min-width:768px) {
+@media(min-width: 700px) {
     .navbar-default {
         padding: 25px 0;
         border: 0;
@@ -243,6 +243,39 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default .navbar-brand {
         font-size: 2em;
+        margin-top: -14%;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .navbar-default .navbar-nav>.active>a {
+        border-radius: 3px;
+    }
+
+    .navbar-default.navbar-shrink {
+        padding: 10px 0;
+        background-color: #222;
+    }
+
+    .navbar-default.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
+    }
+}
+
+@media(max-width: 600px) {
+    .navbar-default {
+        padding: 25px 0;
+        border: 0;
+        background-color: transparent;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    .navbar-default .navbar-brand {
+        font-size: 2em;
+        margin-top: -2.5%;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
