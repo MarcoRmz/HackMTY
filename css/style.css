@@ -30,14 +30,14 @@ a.active {
 }
 
 a {
-    color: #662d91;
+    color: #fff;
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #5a008e;
+    color: #fff;
 }
 
 h1,
@@ -212,10 +212,13 @@ fieldset[disabled] .btn-xl.active {
 }
 
 /* Link Text Color Hover */
-.navbar-default .nav li a:hover,
+.navbar-default .nav li a:hover {
+    color: #662d91;
+}
+
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #662d91;
+    color: #fff;
 }
 
 /* Active Link BKG */
@@ -884,7 +887,7 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #fff;
+    background: #946CB2;
 }
 
 ::selection {
