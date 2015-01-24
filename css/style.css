@@ -265,6 +265,11 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
+    .timeline .timeline-body>p,
+    .timeline .timeline-body>ul {
+        margin-bottom: 0;
+        font-size: 1.2em;
+    }
 }
 
 @media(max-width: 600px) {
@@ -377,6 +382,10 @@ section h3.section-subheading {
     font-style: italic;
     font-weight: 400;
     color: #5a008e;
+}
+
+h5 {
+    color: #191919;
 }
 
 section h4.darkbkg {
@@ -582,6 +591,7 @@ section p {
 
 .timeline .timeline-heading h4.subheading {
     text-transform: none;
+    color: #fff;
 }
 
 .timeline .timeline-body>p,
