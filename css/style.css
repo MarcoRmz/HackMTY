@@ -5,7 +5,7 @@ body {
 }
 
 .text-muted {
-    color: #e9e9e9;
+    color: #c4a1df;
 }
 
 .text-primary {
@@ -399,6 +399,10 @@ h5 {
 
 section h4.darkbkg {
     color: #fff;
+}
+
+section h4 {
+    color: #662d91;
 }
 
 section p {
