@@ -270,6 +270,15 @@ fieldset[disabled] .btn-xl.active {
         margin-bottom: 0;
         font-size: 1.2em;
     }
+    aside.clients p {
+        font-size: 1.3em;
+    }
+    h5 {
+        font-size: 1.2em;
+    }
+    .timeline .timeline-heading h4.subheading {
+        font-size: 1.5em;
+    }
 }
 
 @media(max-width: 600px) {
