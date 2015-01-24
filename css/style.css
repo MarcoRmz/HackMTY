@@ -380,7 +380,11 @@ section h3.section-subheading {
 }
 
 section h4 {
-    color: #5a008e;
+    color: #fff;
+}
+
+section p {
+    color: #191919;
 }
 
 @media(min-width:768px) {
