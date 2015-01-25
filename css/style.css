@@ -311,6 +311,25 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
+
+    img {
+        padding-top: 10%;
+        padding-bottom: 6%;
+    }
+
+    .btn-xl {
+        padding: 15px 30px;
+        border-color: #662d91;
+        border-radius: 3px;
+        text-transform: uppercase;
+        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        color: #fff;
+        background-color: #662d91;
+        margin-right: 0.7%;
+        margin-left: 0.7%;
+    }
 }
 
 header {
@@ -932,6 +951,11 @@ img::selection {
 
 img::-moz-selection {
     background: 0 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
 }
 
 body {
