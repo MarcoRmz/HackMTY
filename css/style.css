@@ -280,7 +280,7 @@ fieldset[disabled] .btn-xl.active {
         font-size: 1.5em;
     }
 
-    img {
+    .logo {
         padding-top: 2%;
         padding-bottom: 3%;
     }
@@ -317,7 +317,7 @@ fieldset[disabled] .btn-xl.active {
         font-size: 1.5em;
     }
 
-    img {
+    .logo {
         padding-top: 20%;
         padding-bottom: 6%;
     }
