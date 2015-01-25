@@ -279,6 +279,11 @@ fieldset[disabled] .btn-xl.active {
     .timeline .timeline-heading h4.subheading {
         font-size: 1.5em;
     }
+
+    img {
+        padding-top: 2%;
+        padding-bottom: 3%;
+    }
 }
 
 @media(max-width: 600px) {
@@ -313,7 +318,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     img {
-        padding-top: 10%;
+        padding-top: 20%;
         padding-bottom: 6%;
     }
 
@@ -951,11 +956,6 @@ img::selection {
 
 img::-moz-selection {
     background: 0 0;
-}
-
-img {
-    width: 100%;
-    height: auto;
 }
 
 body {
