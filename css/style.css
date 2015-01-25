@@ -415,7 +415,7 @@ section p {
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0; /* Cambiado de 150px */
+        padding: 100px 0; /* Cambiado de 150px */
     }
 }
 
