@@ -13,15 +13,16 @@ var cbpAnimatedHeader = (function() {
 	var docElem = document.documentElement,
 		header = document.querySelector( '.navbar-default' ),
 		didScroll = false,
-		changeHeaderOn = 10;
+		changeHeaderOn = 0;
 
 	function init() {
-		window.addEventListener( 'scroll', function( event ) {
+		setTimeout( scrollPage, 0 );
+		/*window.addEventListener( 'scroll', function( event ) {
 			if( !didScroll ) {
 				didScroll = true;
-				setTimeout( scrollPage, 250 );
+				setTimeout( scrollPage, 0 );
 			}
-		}, false );
+		}, true );*/
 	}
 
 	function scrollPage() {
@@ -32,11 +33,11 @@ var cbpAnimatedHeader = (function() {
 		else {
 			classie.remove( header, 'navbar-shrink' );
 		}
-		didScroll = false;
+		didScroll = true;
 	}
 
 	function scrollY() {
-		return window.pageYOffset || docElem.scrollTop;
+		return 1;
 	}
 
 	init();
