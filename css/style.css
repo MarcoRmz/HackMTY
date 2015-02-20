@@ -55,6 +55,10 @@ h6 {
     margin: 0 auto;
 }
 
+img .logo {
+    height: 80%;
+}
+
 .bg-light-gray {
     /*background-color: #946CB2;*/
     background-color: #662d91;
