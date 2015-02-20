@@ -51,9 +51,12 @@ h6 {
     font-weight: 700;
 }
 
+img {
+    height: 30%;
+}
+
 .img-centered {
     margin: 0 auto;
-    height: 30%;
 }
 
 .bg-light-gray {
