@@ -51,7 +51,8 @@ h6 {
     font-weight: 700;
 }
 
-.img-responsive {
+.logo {
+    margin: 0 auto;
     height: 30%;
 }
 
