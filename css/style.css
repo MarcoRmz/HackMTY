@@ -295,6 +295,11 @@ fieldset[disabled] .btn-xl.active {
       margin-left: 38.5%;
       padding: 0;
     }
+
+    .sponsors {
+        width: 70%;
+        margin: 0 auto;
+    }
 }
 
 @media(max-width: 600px) {
@@ -351,6 +356,11 @@ fieldset[disabled] .btn-xl.active {
       margin-right: -326px;
       margin-left: 20px;
       padding: 0;
+    }
+
+    .sponsors {
+        width: 90%;
+        margin: 0 auto;
     }
 }
 
